@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Заявка на участие — Полякова Дарья Александровна</title>
+  <style>
+    @page { size: A4; margin: 20mm; }
+    * { box-sizing: border-box; }
+    html { color: #111; background: #e9e9e9; font-family: "Times New Roman", Georgia, serif; font-size: 12pt; }
+    body { width: 170mm; margin: 18mm auto; background: white; }
+    main { padding: 0; }
+    h1 { margin: 0 0 6mm; font-size: 19pt; text-align: center; font-weight: 700; }
+    .competition { margin: 0 0 10mm; text-align: center; font-size: 12pt; line-height: 1.5; }
+    table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+    th, td { border: 1px solid #222; padding: 4mm; text-align: left; vertical-align: top; line-height: 1.4; }
+    th { width: 45mm; font-weight: 400; }
+    .minor { display: block; margin-top: 2mm; font-size: 10.5pt; line-height: 1.3; }
+    .line { display: flex; align-items: baseline; gap: 2mm; margin: 1mm 0 4mm; }
+    .line:last-child { margin-bottom: 1mm; }
+    .line label { flex: 0 0 auto; }
+    input { min-width: 0; width: 100%; border: 0; border-bottom: 1px solid #333; border-radius: 0; background: transparent; color: #111; padding: 0 1mm 1mm; margin: 0; font: inherit; line-height: 1.5; }
+    input:focus { outline: 2px solid #555; outline-offset: 2px; }
+    .single-input { margin: 1mm 0; }
+    .filled { margin: 0 0 3mm; }
+    .project { margin: 8mm 0 0; font-size: 12pt; line-height: 1.5; }
+    .project strong { display: block; margin-bottom: 2mm; }
+    @media screen { body { box-shadow: 0 1mm 6mm #bbb; padding: 15mm; width: 200mm; } }
+    @media screen and (max-width: 760px) { body { width: calc(100% - 24px); margin: 12px; padding: 16px; } th { width: 34%; } th, td { padding: 10px; } .line { flex-wrap: wrap; } }
+    @media print { html { background: white; } body { width: auto; margin: 0; } table, tr, .project { break-inside: avoid; } input { appearance: none; box-shadow: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Заявка на участие</h1>
+    <p class="competition">Во Всероссийском проектном конкурсе по лексикографии<br>«Переводчик с молодежного: шпаргалка для взрослых»</p>
+    <table aria-label="Сведения об участнике конкурса">
+      <tbody>
+        <tr><th scope="row">ФИО</th><td>Полякова Дарья Александровна</td></tr>
+        <tr><th scope="row"><label for="birth-date">Дата рождения</label></th><td><input id="birth-date" class="single-input" type="text" autocomplete="off" aria-label="Дата рождения"></td></tr>
+        <tr><th scope="row">Место учебы<span class="minor">Школа, класс /<br>ВУЗ, факультет, курс</span></th><td>
+          <p class="filled">РТУ МИРЭА</p>
+          <div class="line"><label for="faculty">Факультет:</label><input id="faculty" type="text" autocomplete="off"></div>
+          <p class="filled">Курс: 2</p>
+          <p class="filled">Группа: ЭФБО-05-25</p>
+        </td></tr>
+        <tr><th scope="row">Научный руководитель<span class="minor">ФИО, место работы,<br>должность,<br>степень/звание</span></th><td>
+          <div class="line"><label for="supervisor-name">ФИО:</label><input id="supervisor-name" type="text" autocomplete="off"></div>
+          <div class="line"><label for="supervisor-work">Место работы:</label><input id="supervisor-work" type="text" autocomplete="off"></div>
+          <div class="line"><label for="supervisor-position">Должность:</label><input id="supervisor-position" type="text" autocomplete="off"></div>
+          <div class="line"><label for="supervisor-degree">Степень/звание:</label><input id="supervisor-degree" type="text" autocomplete="off"></div>
+        </td></tr>
+        <tr><th scope="row"><label for="phone">Телефон</label></th><td><input id="phone" class="single-input" type="text" autocomplete="off"></td></tr>
+        <tr><th scope="row"><label for="email">e-mail</label></th><td><input id="email" class="single-input" type="email" autocomplete="off"></td></tr>
+      </tbody>
+    </table>
+    <p class="project"><strong>Название конкурсной работы</strong>«404: Смысл не найден».<br>Операция «Переводчик поколений»</p>
+  </main>
+</body>
+</html>
