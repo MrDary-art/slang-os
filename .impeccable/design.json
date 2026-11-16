@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-16T08:49:35.871Z",
+  "title": "Design System: СЛЕНГ.OS",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Coffee Liqueur",
+        "tonalRamp": [
+          "oklch(15% 0.0457 67.52)",
+          "oklch(27% 0.0457 67.52)",
+          "oklch(38% 0.0457 67.52)",
+          "oklch(49% 0.0457 67.52)",
+          "oklch(60% 0.0457 67.52)",
+          "oklch(71% 0.0457 67.52)",
+          "oklch(83% 0.0457 67.52)",
+          "oklch(95% 0.0457 67.52)"
+        ]
+      },
+      "coffee": {
+        "role": "primary",
+        "displayName": "Deep Coffee",
+        "tonalRamp": [
+          "oklch(15% 0.0432 81.33)",
+          "oklch(27% 0.0432 81.33)",
+          "oklch(38% 0.0432 81.33)",
+          "oklch(49% 0.0432 81.33)",
+          "oklch(60% 0.0432 81.33)",
+          "oklch(71% 0.0432 81.33)",
+          "oklch(83% 0.0432 81.33)",
+          "oklch(95% 0.0432 81.33)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Wetlands Swamp",
+        "tonalRamp": [
+          "oklch(15% 0.0360 65.51)",
+          "oklch(27% 0.0360 65.51)",
+          "oklch(38% 0.0360 65.51)",
+          "oklch(49% 0.0360 65.51)",
+          "oklch(60% 0.0360 65.51)",
+          "oklch(71% 0.0360 65.51)",
+          "oklch(83% 0.0360 65.51)",
+          "oklch(95% 0.0360 65.51)"
+        ]
+      },
+      "sand": {
+        "role": "neutral",
+        "displayName": "Bleached Sand",
+        "tonalRamp": [
+          "oklch(15% 0.0380 72.54)",
+          "oklch(27% 0.0380 72.54)",
+          "oklch(38% 0.0380 72.54)",
+          "oklch(49% 0.0380 72.54)",
+          "oklch(60% 0.0380 72.54)",
+          "oklch(71% 0.0380 72.54)",
+          "oklch(83% 0.0380 72.54)",
+          "oklch(95% 0.0380 72.54)"
+        ]
+      },
+      "papyrus": {
+        "role": "neutral",
+        "displayName": "Papyrus Map",
+        "tonalRamp": [
+          "oklch(15% 0.0423 71.96)",
+          "oklch(27% 0.0423 71.96)",
+          "oklch(38% 0.0423 71.96)",
+          "oklch(49% 0.0423 71.96)",
+          "oklch(60% 0.0423 71.96)",
+          "oklch(71% 0.0423 71.96)",
+          "oklch(83% 0.0423 71.96)",
+          "oklch(95% 0.0423 71.96)"
+        ]
+      },
+      "saddle": {
+        "role": "neutral",
+        "displayName": "Saddle Up",
+        "tonalRamp": [
+          "oklch(15% 0.0448 69.29)",
+          "oklch(27% 0.0448 69.29)",
+          "oklch(38% 0.0448 69.29)",
+          "oklch(49% 0.0448 69.29)",
+          "oklch(60% 0.0448 69.29)",
+          "oklch(71% 0.0448 69.29)",
+          "oklch(83% 0.0448 69.29)",
+          "oklch(95% 0.0448 69.29)"
+        ]
+      },
+      "crown": {
+        "role": "neutral",
+        "displayName": "Noble Crown",
+        "tonalRamp": [
+          "oklch(15% 0.0453 67.93)",
+          "oklch(27% 0.0453 67.93)",
+          "oklch(38% 0.0453 67.93)",
+          "oklch(49% 0.0453 67.93)",
+          "oklch(60% 0.0453 67.93)",
+          "oklch(71% 0.0453 67.93)",
+          "oklch(83% 0.0453 67.93)",
+          "oklch(95% 0.0453 67.93)"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Arizona White",
+        "tonalRamp": [
+          "oklch(15% 0.0332 74.77)",
+          "oklch(27% 0.0332 74.77)",
+          "oklch(38% 0.0332 74.77)",
+          "oklch(49% 0.0332 74.77)",
+          "oklch(60% 0.0332 74.77)",
+          "oklch(71% 0.0332 74.77)",
+          "oklch(83% 0.0332 74.77)",
+          "oklch(95% 0.0332 74.77)"
+        ]
+      },
+      "light": {
+        "role": "neutral",
+        "displayName": "Warm Light",
+        "tonalRamp": [
+          "oklch(15% 0.0461 90.87)",
+          "oklch(27% 0.0461 90.87)",
+          "oklch(38% 0.0461 90.87)",
+          "oklch(49% 0.0461 90.87)",
+          "oklch(60% 0.0461 90.87)",
+          "oklch(71% 0.0461 90.87)",
+          "oklch(83% 0.0461 90.87)",
+          "oklch(95% 0.0461 90.87)"
+        ]
+      },
+      "caramel": {
+        "role": "secondary",
+        "displayName": "Caramel",
+        "tonalRamp": [
+          "oklch(15% 0.0794 67.26)",
+          "oklch(27% 0.0794 67.26)",
+          "oklch(38% 0.0794 67.26)",
+          "oklch(49% 0.0794 67.26)",
+          "oklch(60% 0.0794 67.26)",
+          "oklch(71% 0.0794 67.26)",
+          "oklch(83% 0.0794 67.26)",
+          "oklch(95% 0.0794 67.26)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Frosted Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0147 80.71)",
+          "oklch(27% 0.0147 80.71)",
+          "oklch(38% 0.0147 80.71)",
+          "oklch(49% 0.0147 80.71)",
+          "oklch(60% 0.0147 80.71)",
+          "oklch(71% 0.0147 80.71)",
+          "oklch(83% 0.0147 80.71)",
+          "oklch(95% 0.0147 80.71)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Reading Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0159 82.79)",
+          "oklch(27% 0.0159 82.79)",
+          "oklch(38% 0.0159 82.79)",
+          "oklch(49% 0.0159 82.79)",
+          "oklch(60% 0.0159 82.79)",
+          "oklch(71% 0.0159 82.79)",
+          "oklch(83% 0.0159 82.79)",
+          "oklch(95% 0.0159 82.79)"
+        ]
+      },
+      "success": {
+        "role": "tertiary",
+        "displayName": "Olive Success",
+        "tonalRamp": [
+          "oklch(15% 0.0531 119.44)",
+          "oklch(27% 0.0531 119.44)",
+          "oklch(38% 0.0531 119.44)",
+          "oklch(49% 0.0531 119.44)",
+          "oklch(60% 0.0531 119.44)",
+          "oklch(71% 0.0531 119.44)",
+          "oklch(83% 0.0531 119.44)",
+          "oklch(95% 0.0531 119.44)"
+        ]
+      },
+      "warning": {
+        "role": "tertiary",
+        "displayName": "Ochre Warning",
+        "tonalRamp": [
+          "oklch(15% 0.0706 75.67)",
+          "oklch(27% 0.0706 75.67)",
+          "oklch(38% 0.0706 75.67)",
+          "oklch(49% 0.0706 75.67)",
+          "oklch(60% 0.0706 75.67)",
+          "oklch(71% 0.0706 75.67)",
+          "oklch(83% 0.0706 75.67)",
+          "oklch(95% 0.0706 75.67)"
+        ]
+      },
+      "error": {
+        "role": "tertiary",
+        "displayName": "Brick Error",
+        "tonalRamp": [
+          "oklch(15% 0.1137 35.04)",
+          "oklch(27% 0.1137 35.04)",
+          "oklch(38% 0.1137 35.04)",
+          "oklch(49% 0.1137 35.04)",
+          "oklch(60% 0.1137 35.04)",
+          "oklch(71% 0.1137 35.04)",
+          "oklch(83% 0.1137 35.04)",
+          "oklch(95% 0.1137 35.04)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Центральный заголовок главной; среднее начертание и открытое поле."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Основной заголовок содержательного раздела."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Название главы или рабочей области."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Сообщения, определения и исследовательский текст."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Обычные подписи управления и навигации."
+      }
+    },
+    "shadows": [
+      {
+        "name": "glass-ambient",
+        "value": "0 16px 46px -26px rgba(78, 64, 39, .28)",
+        "purpose": "Крупные рабочие поверхности и навигация."
+      },
+      {
+        "name": "dialog-separation",
+        "value": "0 26px 100px -25px #36261666",
+        "purpose": "Модальное окно над затемнением."
+      },
+      {
+        "name": "primary-control",
+        "value": "0 7px 18px -10px #4e402760",
+        "purpose": "Мягкое отделение основного действия."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Вход, выход и отклик управления."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "Общий токен согласованного движения."
+      },
+      {
+        "name": "ease-drawer",
+        "value": "cubic-bezier(0.32, 0.72, 0, 1)",
+        "purpose": "Токен движения выдвижной поверхности."
+      },
+      {
+        "name": "press",
+        "value": "100ms",
+        "purpose": "Нажатие указателем; клавиатурная активация без пространственного движения."
+      },
+      {
+        "name": "response",
+        "value": "160ms",
+        "purpose": "Возврат управления и pointer-выход модального окна."
+      },
+      {
+        "name": "surface",
+        "value": "200ms",
+        "purpose": "Pointer-вход модального окна."
+      },
+      {
+        "name": "page-entry",
+        "value": "240ms",
+        "purpose": "Небольшой переход нового содержательного экрана."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desktop-compact",
+        "value": "1100px"
+      },
+      {
+        "name": "home-compact",
+        "value": "1050px"
+      },
+      {
+        "name": "tablet",
+        "value": "850px"
+      },
+      {
+        "name": "phone",
+        "value": "700px"
+      },
+      {
+        "name": "narrow-phone",
+        "value": "374px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Основное действие",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Кофейный градиент и светлый текст для главного действия в рабочем экране.",
+      "html": "<button class=\"ds-primary\">Продолжить расследование<svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:52px;border:1px solid #ffffff28;border-radius:15px;padding:14px 23px;background:linear-gradient(135deg,#68523b,#4e4027);color:#fff9ed;font:600 14px/1.5 Manrope,Arial,sans-serif;box-shadow:0 7px 18px -10px #4e402760;cursor:pointer;transition:transform 160ms cubic-bezier(.23,1,.32,1),opacity 160ms cubic-bezier(.23,1,.32,1)}.ds-primary:focus-visible{outline:2px solid var(--coffee,#4e4027);outline-offset:5px}.ds-primary:active{transform:scale(.98);transition-duration:100ms}@media(hover:hover) and (pointer:fine){.ds-primary:not(:focus-visible):hover{transform:translateY(-1px)}}.ds-primary:focus-visible:active{transform:none}@media(prefers-reduced-motion:reduce){.ds-primary{transition:opacity 120ms ease}.ds-primary:active,.ds-primary:hover{transform:none}}"
+    },
+    {
+      "name": "Вторичное действие",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Спокойная светлая альтернатива без конкуренции с основным действием.",
+      "html": "<button class=\"ds-secondary\">Изучить словарь</button>",
+      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:14px 23px;border-radius:15px;border:1px solid rgba(255,253,246,.78);background:rgba(255,250,239,.58);color:var(--ink,#362616);box-shadow:0 5px 18px -14px #4e402740;font:600 14px/1.5 Manrope,Arial,sans-serif;cursor:pointer;transition:transform 160ms cubic-bezier(.23,1,.32,1)}.ds-secondary:focus-visible{outline:2px solid var(--coffee,#4e4027);outline-offset:5px}@media(hover:hover) and (pointer:fine){.ds-secondary:hover{background:rgba(255,250,239,.8)}}.ds-secondary:active{transform:scale(.98);transition-duration:100ms}.ds-secondary:focus-visible:active{transform:none}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}.ds-secondary:active{transform:none}}"
+    },
+    {
+      "name": "Поиск в архиве",
+      "kind": "input",
+      "description": "Непрозрачное светлое поле внутри общей панели поиска и фильтрации.",
+      "html": "<label class=\"ds-search\"><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input type=\"search\" aria-label=\"Поиск по слову, источнику и определению\" placeholder=\"Найти слово или значение…\"></label>",
+      "css": ".ds-search{display:flex;align-items:center;gap:13px;max-width:760px;padding:4px 16px;background:#fff8ed;border-radius:14px;color:var(--coffee,#4e4027)}.ds-search input{width:100%;min-width:0;min-height:48px;background:transparent;border:0;outline:none;color:var(--ink,#362616);font:400 15px/1.8 Manrope,Arial,sans-serif;caret-color:var(--ink,#362616)}.ds-search input::placeholder{color:var(--coffee,#4e4027);opacity:.95}.ds-search:focus-within{outline:2px solid var(--coffee,#4e4027);outline-offset:3px}"
+    },
+    {
+      "name": "Навигация",
+      "kind": "nav",
+      "description": "Одна плавающая материальная панель, словесный знак и активный раздел.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Разделы\"><strong>СЛЕНГ.OS</strong><a href=\"#/board\" aria-current=\"page\">Расследование</a><a href=\"#/dictionary\">Архив слов</a><a href=\"#/research\">Исследование</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;flex-wrap:wrap;gap:7px;padding:13px 20px;border:1px solid rgba(255,253,246,.78);border-radius:24px;background:rgba(255,248,235,.58);backdrop-filter:blur(20px) saturate(125%);box-shadow:0 16px 46px -26px rgba(78,64,39,.28);font-family:Manrope,Arial,sans-serif;color:var(--ink,#362616)}.ds-nav strong{font-size:23px;font-weight:700;letter-spacing:-.055em;margin-right:auto}.ds-nav a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 14px;color:var(--coffee,#4e4027);border-radius:13px;font-size:13px;font-weight:500;text-decoration:none}.ds-nav a[aria-current]{color:var(--ink,#362616);background:rgba(255,251,243,.72);box-shadow:0 2px 8px -4px #68523b30}.ds-nav a:focus-visible{outline:2px solid var(--coffee,#4e4027);outline-offset:3px}@media(hover:hover) and (pointer:fine){.ds-nav a:hover{background:rgba(255,250,240,.67)}}@media(prefers-reduced-transparency:reduce){.ds-nav{background:#f2e7d6;backdrop-filter:none}}"
+    },
+    {
+      "name": "Фильтр категории",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "Выбранная категория получает плотную тёплую заливку.",
+      "html": "<div class=\"ds-filters\"><button aria-pressed=\"true\">Все слова</button><button aria-pressed=\"false\">IT-жаргон</button></div>",
+      "css": ".ds-filters{display:flex;gap:6px;flex-wrap:wrap;font-family:Manrope,Arial,sans-serif}.ds-filters button{min-height:44px;background:transparent;border:0;border-radius:11px;padding:10px 14px;font:400 13px/1.65 Manrope,Arial,sans-serif;color:var(--coffee,#4e4027);cursor:pointer}.ds-filters button[aria-pressed=true]{background:#e3d1b9;color:var(--ink,#362616)}.ds-filters button:focus-visible{outline:2px solid var(--coffee,#4e4027);outline-offset:4px}@media(hover:hover) and (pointer:fine){.ds-filters button:hover{background:#e8d9c3}}"
+    },
+    {
+      "name": "Стеклянная рабочая поверхность",
+      "kind": "card",
+      "refersTo": "glass-panel",
+      "description": "Крупная структурная область; внутренний текст не получает второй стеклянный слой.",
+      "html": "<section class=\"ds-glass\"><h3>Досье агента</h3><p>Сначала изучай материалы. Смысл часто прячется в реакции собеседника.</p><button>Материалы дела</button></section>",
+      "css": ".ds-glass{max-width:360px;padding:26px;border:1px solid rgba(255,253,246,.78);border-radius:24px;background:var(--surface,rgba(255,249,239,.66));box-shadow:0 16px 46px -26px rgba(78,64,39,.28);backdrop-filter:blur(16px);color:var(--ink,#362616);font:400 14px/1.85 Manrope,Arial,sans-serif}.ds-glass h3{font-size:17px;font-weight:600;margin:0 0 18px}.ds-glass p{color:var(--coffee,#4e4027);margin:0 0 22px}.ds-glass button{min-height:44px;padding:10px 15px;border:1px solid rgba(255,253,246,.78);border-radius:15px;background:rgba(255,250,239,.58);color:var(--ink,#362616);font:500 13px Manrope,Arial,sans-serif;cursor:pointer}.ds-glass button:focus-visible{outline:2px solid var(--coffee,#4e4027);outline-offset:5px}@media(hover:hover) and (pointer:fine){.ds-glass button:hover{background:#fff8ed}}@media(prefers-reduced-transparency:reduce){.ds-glass{background:#f2e7d6;backdrop-filter:none}}"
+    },
+    {
+      "name": "Модальное окно",
+      "kind": "custom",
+      "description": "Материал native dialog: светлая поверхность над тёплым затемнением; приложение сохраняет native focus trap.",
+      "html": "<section class=\"ds-dialog\" role=\"dialog\" aria-labelledby=\"ds-dialog-title\"><header><h2 id=\"ds-dialog-title\">Настройки</h2><button aria-label=\"Закрыть окно\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m6 6 12 12M18 6 6 18\"/></svg></button></header><p>Прогресс хранится только в этом браузере.</p></section>",
+      "css": ".ds-dialog{max-width:600px;padding:21px 28px 30px;border:1px solid rgba(255,253,246,.9);border-radius:26px;background:rgba(249,239,223,.93);box-shadow:0 26px 100px -25px #36261666;backdrop-filter:blur(22px);color:var(--ink,#362616);font-family:Manrope,Arial,sans-serif}.ds-dialog header{display:flex;align-items:center;justify-content:space-between;gap:20px}.ds-dialog h2{margin:0;font-size:23px;font-weight:600;letter-spacing:-.03em}.ds-dialog button{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border:0;border-radius:13px;background:transparent;color:var(--coffee,#4e4027);cursor:pointer}.ds-dialog button:focus-visible{outline:2px solid var(--coffee,#4e4027);outline-offset:4px}.ds-dialog p{font-size:15px;line-height:1.85;color:var(--coffee,#4e4027);margin:24px 0 0}@media(hover:hover) and (pointer:fine){.ds-dialog button:hover{background:#e9dcc8}}@media(prefers-reduced-transparency:reduce){.ds-dialog{background:#f4eadc;backdrop-filter:none}}"
+    },
+    {
+      "name": "Два прочтения",
+      "kind": "custom",
+      "description": "Главный живой объект: исходное сообщение и интерпретация на одной стеклянной плоскости.",
+      "html": "<section class=\"ds-interpretation\"><h3>Одно сообщение. Два прочтения.</h3><div class=\"ds-readings\"><article><small>Макс в командном чате</small><p>Демка сегодня просто имба.</p></article><article><small>Буквальный перевод</small><p>Проект находится в состоянии дисбаланса.</p></article></div><button>Восстановить смысл</button></section>",
+      "css": ".ds-interpretation{max-width:700px;overflow:hidden;padding:26px 34px;border:1px solid rgba(255,250,236,.64);border-radius:27px;background:linear-gradient(125deg,rgba(255,251,242,.48),rgba(233,217,196,.27) 61%,rgba(255,249,230,.5));box-shadow:inset 0 1px 0 rgba(255,253,244,.68),0 25px 65px -36px rgba(78,64,39,.4);backdrop-filter:blur(26px) saturate(112%);font-family:Manrope,Arial,sans-serif;color:var(--ink,#362616)}.ds-interpretation h3{font-size:16px;font-weight:500;margin:0 0 30px}.ds-readings{display:grid;grid-template-columns:1fr 1fr;gap:40px}.ds-readings small{font-size:13px;color:var(--coffee,#4e4027)}.ds-readings p{font-size:25px;font-weight:500;line-height:1.45;letter-spacing:-.035em;margin:14px 0 28px}.ds-interpretation button{min-height:44px;padding:10px 16px;border:1px solid rgba(255,250,234,.65);border-radius:99px;background:linear-gradient(145deg,rgba(255,251,237,.72),rgba(233,217,196,.45));color:var(--ink,#362616);font:600 12px Manrope,Arial,sans-serif;cursor:pointer}.ds-interpretation button:focus-visible{outline:2px solid var(--coffee,#4e4027);outline-offset:5px}@media(hover:hover) and (pointer:fine){.ds-interpretation button:hover{background-color:#fff8ed}}@media(prefers-reduced-transparency:reduce){.ds-interpretation{background:#e9d9c4;backdrop-filter:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Смысл в мягком свете",
+    "overview": "Пользователь полностью заменил прежнюю киберэстетику песочно-кофейной палитрой и референсами прозрачных поверхностей. Построенная система использует тёмные чернила на тёплом световом поле, один спокойный гротеск и жидкое стекло в структурных областях. Содержимое остаётся главным: сообщения, определения и задания читаются как обычный текст, а материал помогает отличать рабочие области.\n\nГрадиенты и прозрачные плашки прямо запрошены пользователем. Они являются частью этой системы и сохраняются при применении Taste Skill; его общие запреты на градиенты и стекло не меняют утверждённый визуальный мир. На главной реальным визуальным объектом служит работающая поверхность двух прочтений сообщения. Игровые сцены используют знакомые кнопки, списки, поля и диалоги.",
+    "keyCharacteristics": [
+      "Тёплый светлый фон и непрозрачный кофейный текст.",
+      "Стекло на уровне навигации и крупных рабочих поверхностей.",
+      "Прозрачность не накладывается повторно на длинный читаемый текст.",
+      "Выразительность через масштаб, расстояния и форму материала.",
+      "Короткое движение как отклик на действие; спокойный неподвижный фон."
+    ],
+    "rules": [
+      {
+        "name": "The Solid Ink Rule",
+        "body": "Текст поверх стекла рисуется сплошным цветом; его читаемость не строится на прозрачности слоя.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Rhythm Rule",
+        "body": "Сокращать служебный текст и увеличивать расстояние между смыслами раньше, чем уменьшать кегль основного содержания.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Material Layer Rule",
+        "body": "Стекло выделяет рабочую область; текст внутри неё не получает второй прозрачный стеклянный контейнер.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do использовать нормативную песочно-кофейную палитру и сплошной тёмный текст.",
+      "Do применять стекло к навигации и крупным рабочим областям, сохраняя внутренний текст на спокойных поверхностях.",
+      "Do делать основные действия понятными через подпись, положение и состояние.",
+      "Do поддерживать клавиатуру, уменьшение движения, уменьшение прозрачности и печатное представление исследования.",
+      "Do использовать только наблюдаемое в коде движение и значения токенов при добавлении экранов."
+    ],
+    "donts": [
+      "Don't возвращать неоновую киберпалитру и терминальное оформление служебных надписей.",
+      "Don't превращать все разделы в ряды одинаковых карточек с иконками.",
+      "Don't наслаивать несколько стеклянных контейнеров вокруг одного читаемого блока.",
+      "Don't заменять рабочий интерактивный объект случайной фотографией или декоративным псевдоинтерфейсом.",
+      "Don't анимировать большой фон постоянно или задерживать доступ к действию ради появления."
+    ]
+  }
+}

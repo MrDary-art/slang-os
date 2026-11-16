@@ -3,6 +3,8 @@ dist/
 test-results/
 playwright-report/
 .taste-skill/inspect/
+.taste-skill/direction.json
+.taste-skill/sheet.md
 .impeccable/live/
 .impeccable/questions/
 *.local
