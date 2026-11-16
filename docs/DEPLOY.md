@@ -8,7 +8,7 @@
 - Результат сборки: `dist/`.
 - Целевой URL: `https://mrdary-art.github.io/slang-os/`.
 
-Целевой URL — ожидаемое расположение проекта. Он не означает, что текущая версия уже опубликована.
+Публикация версии `e247a5e` выполнена 16 ноября 2026 года. Задачи build и deploy завершились успешно: [GitHub Actions](https://github.com/MrDary-art/slang-os/actions/runs/43828520327). Источник Pages настроен на GitHub Actions. Публичный адрес: [открыть игру](https://mrdary-art.github.io/slang-os/).
 
 ## Один раз в настройках репозитория
 

@@ -66,7 +66,7 @@ npm run test:e2e
 
 Workflow `.github/workflows/deploy.yml` запускается при push в `main` или вручную. Он устанавливает зависимости из lockfile, запускает тесты, проверяет типы при сборке и публикует `dist/` официальными GitHub Pages Actions. В репозитории нужно выбрать **Settings → Pages → Build and deployment → Source → GitHub Actions**.
 
-Целевой адрес: `https://mrdary-art.github.io/slang-os/`. Этот адрес является настройкой проекта; готовность публикации подтверждается успешным deployment в GitHub Actions и проверкой страницы. Настоящий статус деплоя не следует выводить из одного наличия workflow.
+Опубликованный сайт: [mrdary-art.github.io/slang-os](https://mrdary-art.github.io/slang-os/). Сборка и публикация версии `e247a5e` подтверждены [успешным запуском GitHub Actions](https://github.com/MrDary-art/slang-os/actions/runs/43828520327) 16 ноября 2026 года: установка зависимостей, 50 тестов, ESLint, TypeScript, production build и deploy прошли на Node.js 22.
 
 Подробности и диагностика: [docs/DEPLOY.md](docs/DEPLOY.md).
 

@@ -13,6 +13,9 @@
     "lint": "eslint src",
     "research:pdf": "node scripts/export-research.mjs"
   },
+  "overrides": {
+    "minimatch": "^11.0.1"
+  },
   "dependencies": {
     "@fontsource/manrope": "^5.3.0",
     "lucide-react": "^1.73.0",
