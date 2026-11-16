@@ -196,6 +196,26 @@ test('key screens have no horizontal overflow at all required widths', async ({ 
       await page.goto(route);
       await expect(page.locator('main h1')).toBeVisible();
       await page.evaluate(() => document.fonts.ready);
+      if (route === '') {
+        const material = await page.evaluate(() => {
+          const backdrop = (selector: string) => {
+            const element = document.querySelector(selector);
+            return element ? getComputedStyle(element).backdropFilter : '';
+          };
+          return {
+            expected: CSS.supports('backdrop-filter', 'blur(1px)')
+              && !matchMedia('(prefers-reduced-transparency: reduce)').matches
+              && !matchMedia('(prefers-contrast: more)').matches,
+            header: backdrop('.site-header'),
+            showcase: backdrop('.home-interpretation'),
+          };
+        });
+        if (material.expected) {
+          expect(material.header, 'Production CSS preserves standard header blur').toContain('blur(');
+          expect(material.showcase, 'Production CSS preserves standard showcase blur').toContain('blur(');
+        }
+        if (width === 1440) await testInfo.attach('production-material', { body: JSON.stringify(material), contentType: 'application/json' });
+      }
       const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1);
       expect(overflow, `Overflow at width ${width} on ${route || 'home'}`).toBe(false);
       if ([320, 375, 1440].includes(width) && ['', '#/case/1', '#/research'].includes(route)) {
