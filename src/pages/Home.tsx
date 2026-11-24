@@ -67,7 +67,7 @@ export function Home() {
     </section>
 
     <footer className="home-colophon">
-      <div><strong>Полякова Дарья</strong><span>РТУ МИРЭА · ЭФБО-05-25 · 2026</span></div>
+      <div><strong>Полякова Дарья</strong><span>РТУ МИРЭА · ЭФБО-05-25 · 2026</span><strong>Научный руководитель - Иоффе Нина Евгеньевна</strong></div>
       <a href="#/jury">Для жюри <span>Короткий маршрут по проекту</span><ArrowUpRight size={18} /></a>
     </footer>
 
